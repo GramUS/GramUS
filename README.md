@@ -20,13 +20,13 @@ npm install
 npm run build
 ```
 
-5. Config:
+4. Config:
 
 ```bash
 cp example.env .env
 ```
 
-4. Start:
+5. Start:
 
 ```bash
 npm start
