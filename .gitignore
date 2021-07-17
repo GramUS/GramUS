@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+node_modules/
+dist/
+yarn.lock
+.env
+installed_modules/
