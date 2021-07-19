@@ -1,0 +1,49 @@
+{
+    "name": "GramJS Userbot",
+    "logo": "https://raw.githubusercontent.com/gramjsuserbot/gramjsuserbot/main/gramjsuserbot-logo.svg",
+    "description": "An extensible and minimal Telegram userbot made with GramJS",
+    "repository": "https://github.com/gramjsuserbot/gramjsuserbot",
+    "env": {
+        "STRING_SESSION": {
+            "description": "GramJS string session",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Telegram app ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Telegram app hash",
+            "required": true
+        },
+        "LOG_CHAT_ID": {
+            "description": "Log chat ID",
+            "required": true
+        },
+        "DB_URI": {
+            "description": "MongoDB URI",
+            "required": true
+        },
+        "DB_NAME": {
+            "description": "Database name, this is usually set when using MongoDB Atlas. Default is gramjsuserbot.",
+            "required": false
+        },
+        "COMMAND_PREFIXES": {
+            "description": "List of characters separated by whitespace to use as command prefixes. Default is . ;.",
+            "required": false
+        },
+        "LOG_LEVEL": {
+            "description": "GramJS log level. Default is none.",
+            "required": false
+        },
+        "CONNECTION_RETRIES": {
+            "description": "GramJS client connection retries. Default is 10.",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
