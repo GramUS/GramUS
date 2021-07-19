@@ -6,7 +6,7 @@
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gramjsuserbot/gramjsuserbot?label=size&style=flat-square">
     <img alt="GitHub" src="https://img.shields.io/github/license/gramjsuserbot/gramjsuserbot?style=flat-square">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/gramjsuserbot/gramjsuserbot?style=flat-square">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/gramjsusergramjsuserbot/gramjsuserbot/wiki/_newbot/gramjsuserbot?style=flat-square">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/gramjsuserbot/gramjsuserbot?style=flat-square">
     <p>
         <a href="https://github.com/gramjsuserbot/modules">Modules</a>
         &middot;
