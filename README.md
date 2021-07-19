@@ -1,35 +1,81 @@
-# GramJS Userbot
+<div align="center">
+    <img src="./gramjsuserbot-logo.svg" style="width: 25vw; border-radius: 100%;" />
+    <h1>GramJS Userbot</h1>
+    <p>An extensible and minimal Telegram userbot made with <a href="https://github.com/gram-js/gramjs">GramJS</a>.</p>
+    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/gramjsuserbot/gramjsuserbot?style=flat-square">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gramjsuserbot/gramjsuserbot?label=size&style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/gramjsuserbot/gramjsuserbot?style=flat-square">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/gramjsuserbot/gramjsuserbot?style=flat-square">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/gramjsusergramjsuserbot/gramjsuserbot/wiki/_newbot/gramjsuserbot?style=flat-square">
+    <p>
+        <a href="https://github.com/gramjsuserbot/modules">Modules</a>
+        &middot;
+        <a href="https://github.com/gramjsuserbot/gramjsuserbot/wiki">Wiki</a>
+        &middot;
+        <a href="https://heroku.com/deploy?template=https://github.com/gramjsuserbot/gramjsuserbot">Deploy to Heroku</a>
+    </p>
+</div>
 
-## Running
+## Features
 
-1. Clone:
+-   Doesn't require you a lot of resources to run it.
+-   Lets you install custom modules.
+-   Logs errors in a chat.
+-   Minimalist design.
 
-```bash
-git clone https://github.com/gramjsuserbot/gramjsuserbot
-```
+## Configuring
 
-2. Install:
+### Required variables
+
+-   `API_ID`: Telegram app ID
+-   `API_HASH`: Telegram app hash
+-   `STRING_SESSION`: GramJS string session
+-   `LOG_CHAT_ID`: Log chat ID
+-   `DB_URI`: MongoDB URI
+
+### Optional variables
+
+-   `DB_NAME`: Database name, this is usually set when using MongoDB Atlas. Default is `gramjsuserbot`.
+-   COMMAND_PREFIXES: List of characters separated by whitespace to use as command prefixes. Default is `. ;`.
+-   LOG_LEVEL: GramJS log level. Default is `none`.
+-   CONNECTION_RETRIES: GramJS client connection retries. Default is `10`.
+
+## Deploying
+
+### Heroku
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gramjsuserbot/gramjsuserbot)
+
+### On a server
+
+1. Install:
 
 ```bash
 npm install
 ```
 
-3. Build:
+2. Build:
 
 ```bash
 npm run build
 ```
 
-4. Config:
-
-```bash
-cp example.env .env
-```
-
-5. Start:
+3. Start:
 
 ```bash
 npm start
 ```
 
-5. Use!
+## License
+
+<div align="center">
+    <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html"><img src="https://i.ibb.co/7bFXvHK/g325.png" style="width: 50vw;" /></a>
+    <p><a href="./LICENSE">View LICENSE file</a></p>
+</div>
+
+## Credits
+
+-   [Roj Serbest](https://github.com/rojserbest): lead developer.
+-   [Akash](https://github.com/BLUE-DEVIL1134), [Gowtham2003](https://github.com/Gowtham2003): developers.
+-   [Painor](https://github.com/painor), [Andrew](https://github.com/AndrewLaneX), [Watzon](https://github.com/watzon): [GramJS](https://github.com/gram-js/gramjs) developers.
+-   [Xen](https://github.com/xencodes): [Ion](https://github.com/ionbot) developer.
