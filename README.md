@@ -36,9 +36,9 @@
 ### Optional variables
 
 -   `DB_NAME`: Database name, this is usually set when using MongoDB Atlas. Default is `gramjsuserbot`.
--   COMMAND_PREFIXES: List of characters separated by whitespace to use as command prefixes. Default is `. ;`.
--   LOG_LEVEL: GramJS log level. Default is `none`.
--   CONNECTION_RETRIES: GramJS client connection retries. Default is `10`.
+-   `COMMAND_PREFIXES`: List of characters separated by whitespace to use as command prefixes. Default is `. ;`.
+-   `LOG_LEVEL`: GramJS log level. Default is `none`.
+-   `CONNECTION_RETRIES`: GramJS client connection retries. Default is `10`.
 
 ## Deploying
 
