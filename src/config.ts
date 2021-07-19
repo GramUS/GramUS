@@ -12,5 +12,5 @@ export default cleanEnv(process.env, {
     DB_NAME: str({ default: "gramjsuserbot" }),
     CONNECTION_RETRIES: num({ default: 10 }),
     LOG_LEVEL: str({ default: "none" }),
-    COMMAND_PREFIXES: str({ default: ": ;" }),
+    COMMAND_PREFIXES: str({ default: ". ;" }),
 });
