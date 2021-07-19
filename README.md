@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./gramjsuserbot-logo.svg" style="width: 25vw; border-radius: 100%;" />
+    <img src="./gramjsuserbot-logo.svg" style="width: 20vw;" />
     <h1>GramJS Userbot</h1>
     <p>An extensible and minimal Telegram userbot made with <a href="https://github.com/gram-js/gramjs">GramJS</a>.</p>
     <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/gramjsuserbot/gramjsuserbot?style=flat-square">
