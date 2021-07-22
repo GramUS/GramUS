@@ -24,6 +24,7 @@
     },
     "homepage": "https://github.com/gramjsuserbot/gramjsuserbot#readme",
     "dependencies": {
+        "big-integer": "^1.6.48",
         "dotenv": "^10.0.0",
         "envalid": "^7.1.0",
         "gram-tgcalls": "^1.3.5",
