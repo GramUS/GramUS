@@ -9,7 +9,7 @@ export default cleanEnv(process.env, {
     STRING_SESSION: str(),
     LOG_CHAT_ID: num(),
     DB_URI: str(),
-    DB_NAME: str({ default: "gramjsuserbot" }),
+    DB_NAME: str({ default: "gramus" }),
     CONNECTION_RETRIES: num({ default: 10 }),
     LOG_LEVEL: str({ default: "none" }),
     COMMAND_PREFIXES: str({ default: ". ;" }),

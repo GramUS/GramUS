@@ -1,18 +1,18 @@
 <div align="center">
-    <img src="./gramjsuserbot-logo.svg" style="width: 20vw;" />
+    <img src="./gramus-logo.svg" style="width: 20vw;" />
     <h1>GramJS Userbot</h1>
     <p>An extensible and minimal Telegram userbot made with <a href="https://github.com/gram-js/gramjs">GramJS</a>.</p>
-    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/gramjsuserbot/gramjsuserbot?style=flat-square">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gramjsuserbot/gramjsuserbot?label=size&style=flat-square">
-    <img alt="GitHub" src="https://img.shields.io/github/license/gramjsuserbot/gramjsuserbot?style=flat-square">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/gramjsuserbot/gramjsuserbot?style=flat-square">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/gramjsuserbot/gramjsuserbot?style=flat-square">
+    <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/GramUS/GramUS?style=flat-square">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/GramUS/GramUS?label=size&style=flat-square">
+    <img alt="GitHub" src="https://img.shields.io/github/license/GramUS/GramUS?style=flat-square">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/GramUS/GramUS?style=flat-square">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/GramUS/GramUS?style=flat-square">
     <p>
-        <a href="https://github.com/gramjsuserbot/modules">Modules</a>
+        <a href="https://github.com/GramUS/modules">Modules</a>
         &middot;
-        <a href="https://github.com/gramjsuserbot/gramjsuserbot/wiki">Wiki</a>
+        <a href="https://github.com/GramUS/GramUS/wiki">Wiki</a>
         &middot;
-        <a href="https://heroku.com/deploy?template=https://github.com/gramjsuserbot/gramjsuserbot">Deploy to Heroku</a>
+        <a href="https://heroku.com/deploy?template=https://github.com/GramUS/GramUS">Deploy to Heroku</a>
     </p>
 </div>
 
@@ -35,7 +35,7 @@
 
 ### Optional variables
 
--   `DB_NAME`: Database name, this is usually set when using MongoDB Atlas. Default is `gramjsuserbot`.
+-   `DB_NAME`: Database name, this is usually set when using MongoDB Atlas. Default is `gramus`.
 -   `COMMAND_PREFIXES`: List of characters separated by whitespace to use as command prefixes. Default is `. ;`.
 -   `LOG_LEVEL`: GramJS log level. Default is `none`.
 -   `CONNECTION_RETRIES`: GramJS client connection retries. Default is `10`.
@@ -44,7 +44,7 @@
 
 ### Heroku
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gramjsuserbot/gramjsuserbot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GramUS/GramUS)
 
 ### On a server
 
