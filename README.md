@@ -1,7 +1,7 @@
 <div align="center">
     <img src="./gramus-logo.svg" style="width: 20vw;" />
     <h1>GramUS</h1>
-    <p>An extensible and minimal Telegram userbot made with <a href="https://github.com/gram-js/gramjs">GramJS</a>.</p>
+    <p>An extensible and minimal Telegram userbot powered by <a href="https://github.com/gram-js/gramjs">GramJS</a>.</p>
     <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/GramUS/GramUS?style=flat-square">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/GramUS/GramUS?label=size&style=flat-square">
     <img alt="GitHub" src="https://img.shields.io/github/license/GramUS/GramUS?style=flat-square">
