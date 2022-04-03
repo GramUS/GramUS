@@ -32,7 +32,7 @@
         "mongodb": "^3.6.9",
         "node-fetch": "^2.6.1",
         "telegram": "^1.7.23",
-        "vm2": "^3.9.4"
+        "vm2": "^3.9.6"
     },
     "devDependencies": {
         "@types/html-escaper": "^3.0.0",
