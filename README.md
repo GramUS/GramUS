@@ -16,6 +16,10 @@
     </p>
 </div>
 
+## DEPRECATION NOTICE
+
+This project is no longer maintained. You might like [Xor](https://github.com/xorgram/xor).
+
 ## Features
 
 -   Doesn't require you a lot of resources to run it.
